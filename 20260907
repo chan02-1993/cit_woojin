@@ -1,0 +1,9 @@
+import turtle
+t=turtle.Turtle()
+
+for y in range(10):
+
+    side = y+3
+    for x in range(side):
+        t.fd(500/side)
+        t.lt(360/side)
