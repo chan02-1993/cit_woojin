@@ -1,0 +1,21 @@
+
+
+
+"""
+money 에 2000~20000사이의 아무 값이나 저장
+money가 10000이상이라면 taxi
+money가 5000이상 10000미만이라면 bus
+money가 5000미만이라면 walk
+를 출력하시오.
+"""
+
+
+money = 7000
+
+if money >= 10000:
+    print("taxi")
+elif money >= 5000:
+    print("bus")
+else:
+    print("walk")
+
