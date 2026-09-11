@@ -1,0 +1,29 @@
+"for i in range(7,33,5):
+    print(i)
+
+for i in range(0,6,1):
+    print(i*5+7)"
+"for x in range(0,17,1):
+    print(x*50+200)"
+"for x in range(0,19,1):
+    print(x*3+2)"
+"for x in range(10,51,10):
+    print(x)"
+"for x in range(5,11,1):
+    print(x)
+"
+
+
+def f1(num):
+    return num*3
+
+def f2(num):
+    return num*5
+
+def f3(num):
+    if num%2==0:
+        return f1(num)
+    else :
+        return f2(num)
+
+print(f3(10)+f3(11))
